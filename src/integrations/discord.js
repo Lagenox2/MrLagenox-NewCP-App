@@ -7,8 +7,8 @@ let isConnected = false;
 
 function onRpcReady() {
     rpcClient.setActivity({
-        state: "Waddling",
-        details: "New Club Penguin",
+        state: "playing penguins",
+        details: "New Club Penguin (MrLagenox fork)",
         startTimestamp: Date.now(),
         largeImageKey: "ncpapp",
         instance: true,
